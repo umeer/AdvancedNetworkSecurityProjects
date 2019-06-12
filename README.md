@@ -7,10 +7,11 @@ Every projects folder contains the following files:
 - The project source code
 
 ## Topics
-packet parsing 
-DNS packet
-arp packet
-packets patterns matching detection 
-Markov chain 
-attack fingerprint recognition 
-syn flood attack and mitigation
+- packet parsing 
+- DNS packet
+- arp packet
+- packets patterns matching detection 
+- Markov chain 
+- attack fingerprint recognition 
+- syn flood attack and mitigation
+- DDoS protection
