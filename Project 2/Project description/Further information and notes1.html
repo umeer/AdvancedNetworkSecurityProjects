@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body style="font-family: arial, helvetica, sans-serif;font-size: 16px;">
+<p><strong>Requirements in deliverable:</strong></p>
+<ul>
+<li>run.sh file</li>
+<li>source code</li>
+<li>txt or pdf file with answers</li>
+</ul>
+<p><strong>Testing deliverable</strong>:<br />Your deliverable will be reviewed in the following manner.<br />First the <em>run.sh</em> file will be called with three arguments.<br />The first being a configuration file in which the IP/MAC associations are described.<br />The second is the pcap capture file<br />The third is the name of the output file.<br />The used command will be similar to: <em>sudo ./run.sh config.txt pcapfile.pcap output.txt</em></p>
+<p>Besides running the<em> run.sh</em> file the source code will be inspected.</p>
+<p><strong>Configuration file format<br /></strong>The provided configuration file with IP/MAC association will be of the &lt;ip&gt; &lt;mac&gt; format.<br />An example of such format is:<br /><em>10.0.0.1 11:ba:da:a5:55:11</em><br />10.0.0.2 11:ba:da:a5:55:11<br />192.168.178.5 11:8b:ad:f0:0d:11<br />12.12.12.12 11:de:fa:ce:d0:11</p>
+<p><strong>Output format<br /></strong>The output format may be CSV or JSON.<br />It must be clear in the output file what triggered the log (notice or error).<br />Additionally each log in the file must give a reason why it was triggered.<br />Finally all the information of the packet must&nbsp; be present in the log such as Ethernet header information and payload information.</p>
+<p></p>
+</body>
+</html>

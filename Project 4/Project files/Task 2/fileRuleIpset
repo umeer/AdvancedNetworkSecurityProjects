@@ -1,0 +1,2 @@
+create myset hash:ip family inet hashsize 1024 maxelem 65536
+add myset 1.2.3.1

@@ -1,0 +1,11 @@
+digraph G0{
+ start -> client_hello[label="100",weight="100"];
+ client_hello -> server_hello[label="100",weight="100"];
+ server_hello -> certificate[label="100",weight="100"];
+ certificate -> client_key_exchange[label="100",weight="100"];
+ client_key_exchange -> change_cipher_spec[label="100",weight="100"];
+ change_cipher_spec -> change_cipher_spec[label="50",weight="50"];
+ change_cipher_spec -> application_data[label="50",weight="50"];
+ application_data -> application_data[label="90",weight="90"];
+ application_data -> end[label="10",weight="10"];
+}

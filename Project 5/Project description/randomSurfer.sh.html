@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body style="font-family: arial, helvetica, sans-serif;font-size: 16px;">
+<pre>Some of you asked for an example how to traverse websites automatically. randomSurfer.sh randomly clicks on links on a webpage. If you run "randomSurfer.sh <a href="http://www.amazon.com&quot;, ">www.amazon.com", </a>it will visit 10 pages with 5 second waiting time.&nbsp;</pre>
+<pre>#!/bin/bash<br />domain=$1<br />nexturl=$domain<br /><br />for i in `seq 1 10`; do<br />   echo "Getting $nexturl"<br />   lynx -dump "https://$domain" &gt; q<br />   nexturl=`cat q | sed -e '1,/^References/d' | egrep -e " +[0-9]*\. .*" -o | grep "<a href="https://www.amazon.com">https://</a>$domain.*" -o | sort | uniq | shuf -n 1`<br />   sleep 5<br />done</pre>
+<p></p>
+</body>
+</html>

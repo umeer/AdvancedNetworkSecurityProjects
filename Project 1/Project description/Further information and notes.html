@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body style="font-family: arial, helvetica, sans-serif;font-size: 16px;">
+<p>In this document we will collect remarks and answers to commonly asked questions on the project assignment.</p>
+<p><strong>Which language should I use?</strong><br />The language you are most comfortable in. Unless you want to use the term project to learn something new, please choose the language where you can be most productive. A low-level language such as C will make the first assignment easier that something like Java, but for later project components some more abstract language will provide an advantage. In the end this will even out, so choose what best fits your bill.<br /><br /><strong>Library Usage</strong><br />The key learning goal&nbsp;behind assignment 1 is that you learn to interface at a low level with system libraries, know how to interpret a protocol description&nbsp;and can translate this into a parser. There are certainly libraries that completely solve the problem of receiving a packet and parsing its DNS fields, for example using scapy and&nbsp;python this assignment can be solved in 10 lines of code.<br />While you can use external libraries as part of your code (and we will do that in later parts explicitly), we require you <span style="text-decoration: underline;">not</span> to use&nbsp;those for your solution that defeat the purpose and the learning goal of an assignment. For example, a library that parses json you use in your config file is okay, a library that solves major parts of the assignment for you, not. If in doubt, reach out to us in the lecture, by email or visit us.</p>
+<p><strong>Testing:<br /></strong>DNS sample captures can be found here: <a href="https://wiki.wireshark.org/SampleCaptures">https://wiki.wireshark.org/SampleCaptures</a></p>
+<p><strong>Output</strong><br />The program should produce a file output.json having the same structure as the provided example output file.</p>
+<p>Here are the values fields can have:</p>
+<p>qr : {QUERY, RESPONSE}<br />opcode : {QUERY, IQUERY, STATUS, RESERVED}<br />aa : {TRUE, FALSE}<br />tc : {TRUE, FALSE}<br />rd : {TRUE, FALSE}<br />ra : {TRUE, FALSE}<br />rcode : {NOERROR, FERROR, SFAILURE, NERROR, NIMPLEMENTED, REFUSED, RESERVED}<br />qdcount : integer<br />ancount : integer<br />nscount : integer<br />arcount : integer<br />qclass : {IN, CS, CH, HS, *}<br />qtype : {A, NS, MD, MF, CNAME, SOA, MB, MG, MR, NULL, WKS, PTR, HINFO, MINFO, MX, TXT, AXFR, MAILB, MAILA, *}<br />class : {IN, CS, CH, HS, *}<br />type : {A, NS, MD, MF, CNAME, SOA, MB, MG, MR, NULL, WKS, PTR, HINFO, MINFO, MX, TXT}</p>
+<p>Please use these values in the output file.</p>
+<p></p>
+</body>
+</html>

@@ -1,0 +1,143 @@
+{"packet_1": {
+  "ipv4": {
+  "srcip": "192.145.66.123",
+  "srcport": 5897,
+  "dstip": "145.96.32.7",
+  "dstport": 53
+},
+  "header": {
+    "id": 48106,
+    "qr": "QUERY",
+    "opcode": "QUERY",
+    "aa": false,
+    "ad": false,
+    "tc": false,
+    "rd": true,
+    "ra": true,
+    "cd": true,
+    "rcode": "NOERROR",
+    "qdcount": 1,
+    "nscount": 0,
+    "ancount": 4,
+    "arcount": 0
+  },
+  "question": [
+    {
+      "qname": "google.com",
+      "qtype": "NS",
+      "qclass": "IN"
+    }
+  ],
+  "answer": [
+    {
+      "name": "google.com",
+      "type": "NS",
+      "class": "IN",
+      "ttl": 32433,
+      "rdata": "ns4.google.com"
+    },
+    {
+      "name": "google.com",
+      "type": "NS",
+      "class": "IN",
+      "ttl": 32433,
+      "rdata": "ns3.google.com"
+    },
+    {
+      "name": "google.com",
+      "type": "NS",
+      "class": "IN",
+      "ttl": 32433,
+      "rdata": "ns1.google.com"
+    },
+    {
+      "name": "google.com",
+      "type": "NS",
+      "class": "IN",
+      "ttl": 32433,
+      "rdata": "ns2.google.com"
+    }
+  ],
+  "authority": [
+
+  ],
+  "additional": [
+
+  ]
+},
+"packet_2": {
+  "ipv4": {
+  "srcip": "192.145.66.321",
+  "srcport": 5097,
+  "dstip": "145.96.32.75",
+  "dstport": 53
+},
+  "header": {
+    "id": 48106,
+    "qr": true,
+    "opcode": "QUERY",
+    "aa": false,
+    "ad": false,
+    "tc": false,
+    "rd": true,
+    "ra": true,
+    "cd": true,
+    "rcode": "NOERROR",
+    "qdcount": 1,
+    "nscount": 0,
+    "ancount": 4,
+    "arcount": 0
+  },
+  "question": [
+    {
+      "qname": "google.com",
+      "qtype": "NS",
+      "qclass": "IN"
+    }
+  ],
+  "answer": [
+    {
+      "name": "google.com",
+      "type": "NS",
+      "class": "IN",
+      "ttl": 32433,
+      "rdata": "ns4.google.com"
+    },
+    {
+      "name": "google.com",
+      "type": "NS",
+      "class": "IN",
+      "ttl": 32433,
+      "rdata": "ns3.google.com"
+    },
+    {
+      "name": "google.com",
+      "type": "NS",
+      "class": "IN",
+      "ttl": 32433,
+      "rdata": "ns1.google.com"
+    },
+    {
+      "name": "google.com",
+      "type": "NS",
+      "class": "IN",
+      "ttl": 32433,
+      "rdata": "ns2.google.com"
+    }
+  ],
+  "authority": [
+
+  ],
+  "additional": [
+
+  ]
+},
+"packet_3": {
+  "ipv4": {
+  "srcip": "192.145.66.123",
+  "srcport": 5897,
+  "dstip": "145.96.32.7",
+  "dstport": 53
+}
+}
+}

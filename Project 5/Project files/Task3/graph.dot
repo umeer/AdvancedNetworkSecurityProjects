@@ -1,0 +1,40 @@
+digraph G1{
+ start -> client_hello[label="83",weight="83"];
+ start -> application_data[label="17",weight="17"];
+ client_hello -> server_hello[label="55",weight="55"];
+ client_hello -> end[label="45",weight="45"];
+ server_hello -> client_key_exchange[label="75",weight="75"];
+ server_hello -> change_cipher_spec[label="25",weight="25"];
+ server_hello -> application_data[label="0",weight="0"];
+ certificate -> application_data[label="100",weight="100"];
+ client_key_exchange -> change_cipher_spec[label="99",weight="99"];
+ client_key_exchange -> application_data[label="1",weight="1"];
+ change_cipher_spec -> change_cipher_spec[label="11",weight="11"];
+ change_cipher_spec -> application_data[label="89",weight="89"];
+ application_data -> server_hello[label="4",weight="4"];
+ application_data -> change_cipher_spec[label="18",weight="18"];
+ application_data -> application_data[label="64",weight="64"];
+ application_data -> end[label="14",weight="14"];
+}
+digraph G2{
+ start -> client_hello[label="99",weight="99"];
+ start -> application_data[label="1",weight="1"];
+ client_hello -> server_hello[label="63",weight="63"];
+ client_hello -> end[label="37",weight="37"];
+ server_hello -> server_hello[label="11",weight="11"];
+ server_hello -> client_key_exchange[label="61",weight="61"];
+ server_hello -> change_cipher_spec[label="28",weight="28"];
+ server_hello -> application_data[label="0",weight="0"];
+ certificate -> application_data[label="100",weight="100"];
+ client_key_exchange -> change_cipher_spec[label="93",weight="93"];
+ client_key_exchange -> application_data[label="7",weight="7"];
+ change_cipher_spec -> certificate[label="3",weight="3"];
+ change_cipher_spec -> client_key_exchange[label="3",weight="3"];
+ change_cipher_spec -> change_cipher_spec[label="14",weight="14"];
+ change_cipher_spec -> application_data[label="80",weight="80"];
+ application_data -> server_hello[label="5",weight="5"];
+ application_data -> client_key_exchange[label="2",weight="2"];
+ application_data -> change_cipher_spec[label="13",weight="13"];
+ application_data -> application_data[label="69",weight="69"];
+ application_data -> end[label="11",weight="11"];
+}

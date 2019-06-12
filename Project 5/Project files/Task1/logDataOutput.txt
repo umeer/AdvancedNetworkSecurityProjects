@@ -1,0 +1,24 @@
+ip_destination	port_destination	ip_source	port_source	handshake
+ 40.115.1.44	 https	 192.168.1.125	 59709	client_hello
+ 192.168.1.125	 59709	 40.115.1.44	 https	server_hello
+ 192.168.1.125	 59709	 40.115.1.44	 https	certificate
+ 40.115.1.44	 https	 192.168.1.125	 59709	client_key_exchange
+ 40.115.1.44	 https	 192.168.1.125	 59709	change_cipher_spec
+ 192.168.1.125	 59709	 40.115.1.44	 https	change_cipher_spec
+ 40.115.1.44	 https	 192.168.1.125	 59709	application_data
+ 40.115.1.44	 https	 192.168.1.125	 59709	application_data
+ 192.168.1.125	 59709	 40.115.1.44	 https	application_data
+ 192.168.1.125	 59709	 40.115.1.44	 https	application_data
+ 40.115.1.44	 https	 192.168.1.125	 59709	application_data
+ 40.115.1.44	 https	 192.168.1.125	 59709	application_data
+ 192.168.1.125	 59709	 40.115.1.44	 https	application_data
+ 192.168.1.125	 59709	 40.115.1.44	 https	application_data
+ 40.115.1.44	 https	 192.168.1.125	 59716	client_hello
+ 192.168.1.125	 59716	 40.115.1.44	 https	server_hello
+ 192.168.1.125	 59716	 40.115.1.44	 https	certificate
+ 40.115.1.44	 https	 192.168.1.125	 59716	client_key_exchange
+ 40.115.1.44	 https	 192.168.1.125	 59716	change_cipher_spec
+ 192.168.1.125	 59716	 40.115.1.44	 https	change_cipher_spec
+ 40.115.1.44	 https	 192.168.1.125	 59716	application_data
+ 40.115.1.44	 https	 192.168.1.125	 59716	application_data
+ 192.168.1.125	 59716	 40.115.1.44	 https	application_data
