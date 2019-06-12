@@ -5,3 +5,12 @@ The project's complexity grows with the increase of their numbering, hence the p
 Every projects folder contains the following files:
 - Description document which defines the guidelines/deliverables and in some cases input and example of output files.
 - The project source code
+
+## Topics
+packet parsing 
+DNS packet
+arp packet
+packets patterns matching detection 
+Markov chain 
+attack fingerprint recognition 
+syn flood attack and mitigation
