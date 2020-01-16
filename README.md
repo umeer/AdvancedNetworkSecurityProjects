@@ -9,9 +9,9 @@ Every projects folder contains the following files:
 - The project source code
 
 ## Topics
-- Week 1: DNS packet capture and fields parsing (byte level malicious detection)
-- Week 2: Dynamic ARP Inspection Module
-- Week 3: ARP-request reply attack defence (WEP)
-- Week 4: DDoS mitigation (iptables - bloom filters - longest prefix match trie)
-- Week 5: Traffic fingerprinting of TLS flows (Markov chains)
-- Week 6: IPS for SYN flood mitigations (Statical/Behavioral/Cookies protections)
+- Project 1: DNS packet capture and fields parsing (byte level malicious detection)
+- Project 2: Dynamic ARP Inspection Module
+- Project 3: ARP-request reply attack defence (WEP)
+- Project 4: DDoS mitigation (iptables - bloom filters - longest prefix match trie)
+- Project 5: Traffic fingerprinting of TLS flows (Markov chains)
+- Project 6: IPS for SYN flood mitigations (Statical/Behavioral/Cookies protections)
